@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --primary: #ffffff;
+  --secondary: #e6fcff;
+  --highlight: #4cabff;
+  --overlay: #8ac8ff;
+  --text: black;
+}
+#root {
+  width: 100%;
+}
+
+html[data-theme='dark'] {
+  --primary: #333333;
+  --secondary: #292a2d;
+  --text: #ffffff;
+}
